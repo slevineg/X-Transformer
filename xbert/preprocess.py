@@ -30,7 +30,7 @@ bioclinical_bert_ForSequenceClassification = AutoModelForSequenceClassification.
 
 
 from transformers import (
-    WEIGHTS_NAME,
+    WEIGHTS_NAME, #not sure why we need this...
 )
 
 ALL_MODELS = sum(
