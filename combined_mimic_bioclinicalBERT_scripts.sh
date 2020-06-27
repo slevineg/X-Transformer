@@ -267,8 +267,6 @@ python -u -m xbert.evaluator \
 DATASET = $'mimiciii-14'
 DATA_DIR=./datasets/${DATASET}
 
-# LABEL_NAME_ARR=( pifa-tfidf-s0 pifa-neural-s0 text-emb-s0 )
-MODEL_NAME_ARR=( bert-large-cased-whole-word-masking roberta-large xlnet-large-cased )
 EXP_NAME=${DATASET}.final
 
 LABEL_NAME = $'pifa-tfidf-s0'
