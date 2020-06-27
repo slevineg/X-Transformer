@@ -256,6 +256,12 @@ python -u -m xbert.evaluator \
 ### END###
 
 
+# eval_transformer:
+# Given the provided indexing codes (label-to-cluster assignments)
+# and the fine-tuned Transformer models, train/predict ranker of 
+# the X-Transformer framework, and evaluate with Precision/Recall@k:
+
+
 #!/bin/bash
 
 DATASET = $'mimiciii-14'
@@ -314,17 +320,4 @@ python -u -m xbert.evaluator \
 # Given the provided indexing codes (label-to-cluster assignments), train/predict linear models, and evaluate with Precision/Recall@k:
 
 
-
-
-
-# ```bash
-# bash eval_linear.sh ${DATASET} ${VERSION}
-# ```
-
-
 ### END
-
-# eval_transformer:
-# Given the provided indexing codes (label-to-cluster assignments)
-# and the fine-tuned Transformer models, train/predict ranker of 
-# the X-Transformer framework, and evaluate with Precision/Recall@k:
