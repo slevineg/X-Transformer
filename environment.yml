@@ -1,4 +1,4 @@
-name: pt1.2_xmlc_transformer
+name: pt1.2_old_xmlc_transformer
 channels:
   - pytorch
   - defaults
